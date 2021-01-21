@@ -44,3 +44,5 @@
     Eg: document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('button').onclick = count;
         })
+
+14 -> <script src="<filename>.js"></script>
