@@ -46,3 +46,10 @@
         })
 
 14 -> <script src="<filename>.js"></script>
+
+15 -> document.querySelector on specific tag(s):
+    document.querySelector('tag')
+    document.querySelector('#id')
+    document.querySelector('.class')
+
+16 -> 
