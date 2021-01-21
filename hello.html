@@ -6,7 +6,11 @@
 
             function hello() {
                 
-                document.querySelector('h1').innerHTML = 'Good Bye!';
+                if (document.querySelector('h1').innerHTML === 'Hello, world!') {
+                    document.querySelector('h1').innerHTML = 'Good Bye!';
+                } else {
+                    document.querySelector('h1').innerHTML = 'Hello, world!';
+                }
 
             }
 
