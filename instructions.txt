@@ -29,3 +29,5 @@
     if we are sure that variable value will no change:
     Eg: const heading = documents.querySelector('<tag>')
 
+11 -> Template literal (Equivalent to f-string in python):
+    Eg: alert(`counter is: ${counter}`)
