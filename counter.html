@@ -10,14 +10,14 @@
 
         function count() {
             counter++;
-            alert(counter);
+            document.querySelector('h1').innerHTML = counter;
         }
 
     </script>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <h1>0</h1>
     <button onclick="count()">Count</button>
 </body>
 

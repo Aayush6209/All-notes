@@ -19,3 +19,13 @@
 7-> == (weak equality) [doesen't bother for d-type]
 
 8-> === (strong equality)
+
+9-> Assigning long functions 
+    (like: documents.querySelector('<tag>'))
+    to a Variable
+    Eg: let heading = documents.querySelector('<tag>')
+
+10-> constant Variable:
+    if we are sure that variable value will no change:
+    Eg: const heading = documents.querySelector('<tag>')
+
