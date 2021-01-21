@@ -10,3 +10,12 @@
 
 4-> Variable:
     let <var-name> = <value>;
+
+5-> Manipulate html:
+    documents.querySelector('<tag>').innerHTML
+
+6-> if() {} else {}
+
+7-> == (weak equality) [doesen't bother for d-type]
+
+8-> === (strong equality)
