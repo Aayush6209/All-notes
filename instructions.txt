@@ -31,3 +31,16 @@
 
 11 -> Template literal (Equivalent to f-string in python):
     Eg: alert(`counter is: ${counter}`)
+
+12 -> It is tideous to call from html:
+    instead of:
+        <button onclick="hello()">Click Here</button>
+    use inside script:
+        documents.querySelector('button').onclick = hello;
+
+13 -> step 12 will not work because:
+    script came before button in html (check browser console)
+    so you need to add an event listner:
+    Eg: document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('button').onclick = count;
+        })
