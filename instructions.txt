@@ -8,3 +8,5 @@
 3-> Calling a function:
     <button onclick="<name>(<arguments>)">Click Here</button>
 
+4-> Variable:
+    let <var-name> = <value>;
