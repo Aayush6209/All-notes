@@ -5,19 +5,20 @@
         <script>
             document.addEventListener("DOMContentLoaded", () => {
 
-                document.querySelectorAll('button').forEach(button => {
-                    button.onclick = () => {
-                        document.querySelector('#hello').style.color = button.dataset.color;
-                    }
-                });
+                document.querySelector('select').onchange = function() {
+                    document.querySelector('#hello').style.color = this.value;
+                }
 
             });
         </script>
     </head>
 <body>
     <h1 id="hello">Hello, world!</h1>
-    <button data-color="red">RED</button>
-    <button data-color="blue">BLUE</button>
-    <button data-color="green">GREEN</button>
+    <select>
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+    </select>
 </body>
 </html>

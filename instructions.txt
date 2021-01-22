@@ -69,3 +69,13 @@
 17 -> value of counter can be changed in console
 
 18 -> <function(button) {}> is equivalent to <button => {}>
+
+19 -> dealing with select in Js:
+    document.addEventListener("DOMContentLoaded", () => {
+
+        document.querySelector('select').onchange = function() {
+            document.querySelector('#hello').style.color = this.value;
+        }
+
+    });
+
