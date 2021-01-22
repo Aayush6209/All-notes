@@ -97,3 +97,6 @@
 
 22 -> enabling/disabling submit button:
     document.querySelector('#submit').disabled = true;
+
+23 -> setInterval(<func name>, <duration in ms>);
+    // inbuilt js function
