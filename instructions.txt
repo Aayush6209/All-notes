@@ -94,3 +94,6 @@
         // stop page from submitting
         return false;
     }
+
+22 -> enabling/disabling submit button:
+    document.querySelector('#submit').disabled = true;
