@@ -9,7 +9,7 @@
             .then(data => {
                 // console.log(data);
                 const rate = data.rates.INR;
-                document.querySelector('body').innerHTML = `1 Dollar = ${rate} INR.`
+                document.querySelector('body').innerHTML = `1 Dollar = ${rate.toFixed(3)} INR.`
             })
         });
     </script>

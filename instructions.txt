@@ -123,3 +123,5 @@
     }
 
     response => response.json()
+
+28 -> <var name>.toFixed(3) - for 3 decimal precision.
