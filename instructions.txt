@@ -100,3 +100,9 @@
 
 23 -> setInterval(<func name>, <duration in ms>);
     // inbuilt js function
+
+24 -> retrieveing/storing data in browser:
+    localStorage.getItem(<variable name>)
+    localStorage.setItem(<variable name>, <value>)
+
+    storage can be accessed in console->application->localStorage
