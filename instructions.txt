@@ -52,4 +52,20 @@
     document.querySelector('#id')
     document.querySelector('.class')
 
-16 -> 
+16 -> for loops, arrays, dataset:
+    Eg:
+    <script>
+            document.addEventListener("DOMContentLoaded", function() {
+
+                document.querySelectorAll('button').forEach(function(button) {
+                    button.onclick = function() {
+                        document.querySelector('#hello').style.color = button.dataset.color;
+                    };
+                });
+
+            });
+    </script>
+
+17 -> value of counter can be changed in console
+
+18 -> <function(button) {}> is equivalent to <button => {}>
