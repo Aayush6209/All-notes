@@ -106,3 +106,20 @@
     localStorage.setItem(<variable name>, <value>)
 
     storage can be accessed in console->application->localStorage
+
+25 -> objects in js:
+    Eg:
+    let person = {
+        first: "Harry",
+        last: "Potter"
+    }
+
+26 -> API and JSON:
+    API deals with data in json format (javascript object notation)
+
+27 -> short hand for function taking input and giving output:
+    function (response) {
+        return response.json()
+    }
+
+    response => response.json()
