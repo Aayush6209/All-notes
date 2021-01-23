@@ -125,3 +125,7 @@
     response => response.json()
 
 28 -> <var name>.toFixed(3) - for 3 decimal precision.
+
+29 -> according to 25, person.middle = undefined (None)
+
+30 -> .toUpperCase()
